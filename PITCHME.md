@@ -12,3 +12,7 @@ Presentations are instantly available online following a git-push:
 ---
 
 Segunda Diapo
+
+	Chuleta de MarkDown:
+		https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
