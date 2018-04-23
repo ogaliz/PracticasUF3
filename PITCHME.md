@@ -1,19 +1,19 @@
-## PROVA
-
+## GITPITCH CHEATSHEET
 
 Presentations are instantly available online following a git-push:
-
+	````
 	https://gitpitch.com/$user/$repo/$branch
 	
 	Ejemplo:
 
 	https://gitpitch.com/ogaliz/PracticasUF3/master
-
+	````
 ---
 
 Segunda Diapo
 
-	Chuleta de MarkDown:
-		https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+	Chuleta de [MarkDown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+		
+Enlace a los emojis en MarkDown:
 
-Probando **git** pitch
+	https://www.webpagefx.com/tools/emoji-cheat-sheet/ - automatic!
