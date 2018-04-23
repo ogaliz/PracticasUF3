@@ -1,13 +1,13 @@
 ## GITPITCH CHEATSHEET
 
 Presentations are instantly available online following a git-push:
-	````
+	```
 	https://gitpitch.com/$user/$repo/$branch
 	
 	Ejemplo:
 
 	https://gitpitch.com/ogaliz/PracticasUF3/master
-	````
+	```
 ---
 
 Segunda Diapo
@@ -16,4 +16,4 @@ Segunda Diapo
 		
 Enlace a los emojis en MarkDown:
 
-	https://www.webpagefx.com/tools/emoji-cheat-sheet/ - automatic!
+	https://www.webpagefx.com/tools/emoji-cheat-sheet/
