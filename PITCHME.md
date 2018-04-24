@@ -17,3 +17,7 @@ Segunda Diapo
 Enlace a los emojis en MarkDown:
 
 	https://www.webpagefx.com/tools/emoji-cheat-sheet/
+
+---
+#### Ajustes de git pitch
+https://github.com/gitpitch/gitpitch/wiki/Theme-Setting
