@@ -15,7 +15,7 @@ public class Ejer5PalabraApalabra {
 
         ruta.showOpenDialog(ruta);
 
-        String path = ruta.getSelectedFile().getAbsolutePath();
+//        String path = ruta.getSelectedFile().getAbsolutePath();
 
         //Procedemos a leer el archivo palabra a palabra, para ello podemos usar la clase Scanner.
         Scanner palabra = null;

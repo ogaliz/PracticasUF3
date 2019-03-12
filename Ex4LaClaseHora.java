@@ -1,4 +1,3 @@
-package uf4orientacionObjetos;
 
 public class Ex4LaClaseHora {
 	

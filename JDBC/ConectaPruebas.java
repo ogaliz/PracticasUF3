@@ -1,4 +1,4 @@
-package conectaBaseDatos;
+package JDBC;
 
 import java.sql.*;
 
