@@ -18,10 +18,10 @@ public class CalculadoraMultioperacio {
 
     public static void main(String[] args) {
 
-        // Operaciones operacion = new Operaciones();
         Scanner teclado = new Scanner(System.in);
+        Operaciones operacion = new Operaciones();
 
-        boolean continuar = false;
+        boolean continuar;
 
         do {
 
@@ -29,18 +29,27 @@ public class CalculadoraMultioperacio {
             String seleccion = teclado.next();
             teclado.reset();
 
+            System.out.println("Introduzca el primer operando:");
+            double num1 = teclado.nextInt();
+            System.out.println("Intrduzca el segundo operando");
+            double num2 = teclado.nextInt();
+
             switch (seleccion){
                 case "+":
-                    System.out.println("Se ha seleccionado la suma");
+                    System.out.println("El resultado de la suma es:");
+                    System.out.println(operacion.suma(num1, num2));
                     break;
                 case "-":
-                    System.out.println("Se ha seleccionado la resta");
+                    System.out.println("El resultado de la resta es:");
+                    System.out.println(operacion.resta(num1, num2));
                     break;
                 case "*":
-                    System.out.println("Se ha seleccionado la multiplicacion");
+                    System.out.println("El resultado de la multiplicacion es:");
+                    System.out.println(operacion.multiplicacion(num1, num2));
                     break;
                 case "/":
-                    System.out.println("Se ha seleccionado la división");
+                    System.out.println("El resultado de la division es:");
+                    System.out.println(operacion.division(num1, num2));
                     break;
                 default:
                     System.out.println("No ha entrado en el switch-case, ERROR!!");
@@ -50,9 +59,7 @@ public class CalculadoraMultioperacio {
             String continuamos = teclado.next();
             teclado.reset();
 
-            if (continuamos.equals("SI")){
-                continuar = true;
-            }
+            continuar = continuamos.equals("SI");
 
         } while (continuar);
 

@@ -1,7 +1,10 @@
 package Ejercicio1;
 
+import java.util.Scanner;
+
 class Operaciones {
 
+    Scanner teclado = new Scanner(System.in);
     double resultado = 0;
 
     double suma(double num1, double num2){
