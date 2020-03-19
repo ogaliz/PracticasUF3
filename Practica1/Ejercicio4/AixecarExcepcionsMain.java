@@ -1,4 +1,7 @@
-package Ejercicio4;
+package Practica1.Ejercicio4;
+
+import java.util.Scanner;
+
 /**
  * Fes una funció per demanar quantitats de diners per teclat a l’usuari, i retornar-les
  * validades (la funció ha de controlar amb excepcions que les dades introduïdes siguin numèriques).
@@ -9,6 +12,21 @@ package Ejercicio4;
  * */
 public class AixecarExcepcionsMain {
 
+    static Scanner teclado = new Scanner(System.in);
+    static double[] quantitats;
+    static final String NUMERO_NO_PERMITIDO = "NULL";
 
+    public static void main(String[] args) {
+
+        System.out.println("De cuantos numeros se compone la lista?");
+        quantitats = new double[teclado.nextInt()];
+
+        for (double quantitat : quantitats) {
+
+            quantitat = 21;
+            System.out.println(quantitat);
+        }
+
+    }// cierre del main
 
 }
